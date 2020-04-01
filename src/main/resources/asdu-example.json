@@ -1,0 +1,61 @@
+{
+	"asdus": {
+		"M_ME_TF_1": [["org.openmuc.j60870.ie.IeShortFloat", "org.openmuc.j60870.ie.IeQuality", "org.openmuc.j60870.ie.IeTime56"]],
+		"M_SP_NA_1": [["org.openmuc.j60870.ie.IeSinglePointWithQuality"]]
+	},
+	"devices": {
+		"0": {
+			"999": {
+				"name": "ACS",
+				"data": {
+					"M_ME_TF_1": {
+						"1": {
+							"ENUMERATION": {
+								"name": "Charging status",
+								"value": "0:0",
+								"time": "0:2",
+								"0.0": "None",
+								"1.0": "Recovery",
+								"2.0": "Bulk",
+								"3.0": "Absorption",
+								"4.0": "Trickle"
+							}
+						},
+						"2": {
+							"MEASUREMENT": {
+								"fragment": "Battery voltage",
+								"series": "U",
+								"unit": "mV",
+								"value": "0:0",
+								"time": "0:2"
+							}
+						}
+					}
+				}
+			},
+			"52490" :{
+				"name": "Quadro BT",
+				"data": {
+					"M_SP_NA_1": {
+						"1009": {
+							"ENUMERATION": {
+								"name": "Telesegnale disponible 9",
+								"value": "0:0",
+								"0": "Assente",
+								"1": "Presente"
+							}
+						},
+						"1010": {
+							"ENUMERATION": {
+								"name": "Telesegnale disponible 10",
+								"value": "0:0",
+								"0": "Assente",
+								"1": "Presente"
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

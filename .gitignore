@@ -1,0 +1,9 @@
+/.classpath
+/.project
+/.settings/
+/IEC104testgateway-tcpmqttcumulocitycom1883/
+/bin/
+/cumulocityCredentials
+/iec104-test-tcpmqttcumulocitycom1883/
+/poc.db
+/target/
